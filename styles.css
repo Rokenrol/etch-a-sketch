@@ -1,0 +1,19 @@
+/*Basic css reset */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 960px;
+    height: 960px;
+    background-color: tan;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    outline: 1px solid black;
+}
