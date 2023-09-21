@@ -32,3 +32,14 @@ button.addEventListener('click', () => {
     }
   }
 });
+
+// Prompt function
+
+function gridPrompt() {
+  cellNumber = +prompt("Please enter the size of the grid");
+  if (cellNumber > 100 || isNaN(cellNumber)) {
+    gridPrompt();
+  } else {
+    return cellNumber;
+  }
+}
