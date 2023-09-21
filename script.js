@@ -50,3 +50,11 @@ function randomNumber() {
   let randomRGBNumber = Math.floor(Math.random() * 256);
   return randomRGBNumber;
 }
+
+// Function to remove all cells of a grid
+
+function removeNodes(parent) {
+  while (parent.hasChildNodes()) {
+    parent.removeChild(parent.lastChild);
+  }
+}
