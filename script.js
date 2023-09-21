@@ -61,12 +61,13 @@ function removeNodes(parent) {
 
 // Function that changes opacity in RGBa
 
-let cellOpacity = 0;
+let cellOpacity = 0.1;
 
   function cellDarken() {
     cellOpacity += 0.1;
     if (cellOpacity > 1.0) {
-      cellOpacity = 0;
+      cellOpacity = 0.1;
     }
+    console.log(cellOpacity);
     return cellOpacity;
   }

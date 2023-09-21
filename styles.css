@@ -8,21 +8,47 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: aliceblue;
 }
+
+/* Grid styles */
 
 .container {
     width: 960px;
     height: 960px;
-    background-color: tan;
+    background-color: peachpuff;
     display: flex;
     flex-wrap: wrap;
 }
+
+h1 {
+    margin: 20px 0 20px 0;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    color: rgb(57, 134, 206);
+}
+
+/* Styles for individual cell */
 
 .cell {
     outline: 1px solid black;
     box-sizing: border-box;
 }
 
+/* Button styles */
+
 button {
     margin-bottom: 2rem;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-family: 'ADLaM Display', cursive;
+    font-size: 1.1rem;
+    color: white;
+    background-color:rgb(57, 134, 206);
+}
+
+button:hover {
+    background-color: rgb(45, 116, 184);
+    color: lightcyan;
 }
