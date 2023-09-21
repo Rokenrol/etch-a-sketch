@@ -33,7 +33,7 @@ button.addEventListener('click', () => {
   }
 });
 
-// Prompt function
+// Prompt for getting the number of cells per grid
 
 function gridPrompt() {
   cellNumber = +prompt("Please enter the size of the grid");
@@ -42,4 +42,11 @@ function gridPrompt() {
   } else {
     return cellNumber;
   }
+}
+
+// Generate random RGB value
+
+function randomNumber() {
+  let randomRGBNumber = Math.floor(Math.random() * 256);
+  return randomRGBNumber;
 }
