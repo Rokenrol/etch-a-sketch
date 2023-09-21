@@ -58,3 +58,15 @@ function removeNodes(parent) {
     parent.removeChild(parent.lastChild);
   }
 }
+
+// Function that changes opacity in RGBa
+
+let cellOpacity = 0;
+
+  function cellDarken() {
+    cellOpacity += 0.1;
+    if (cellOpacity > 1.0) {
+      cellOpacity = 0;
+    }
+    return cellOpacity;
+  }
