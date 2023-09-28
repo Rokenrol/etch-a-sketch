@@ -16,7 +16,7 @@ body {
 .container {
     width: 960px;
     height: 960px;
-    background-color: peachpuff;
+    background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
 }
