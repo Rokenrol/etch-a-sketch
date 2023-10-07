@@ -14,8 +14,8 @@ body {
 /* Grid styles */
 
 .container {
-    width: 960px;
-    height: 960px;
+    width: 600px;
+    height: 600px;
     background-color: lightyellow;
     display: flex;
     flex-wrap: wrap;
